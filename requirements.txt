@@ -1,0 +1,7 @@
+# Python packages voor de leeromgeving
+# Opmerking: pylint, black, pytest, en ipython worden automatisch geïnstalleerd via devcontainer.json
+
+# Data Science libraries (optioneel)
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
