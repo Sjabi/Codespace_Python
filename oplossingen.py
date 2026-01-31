@@ -81,8 +81,8 @@ if __name__ == "__main__":
     
     # Alle tests moeten slagen
     assert tel_op(5, 3) == 8
-    assert is_even(4) == True
-    assert is_even(7) == False
+    assert is_even(4)
+    assert not is_even(7)
     assert vind_grootste([1, 5, 3, 9, 2]) == 9
     assert keer_om('hallo') == 'ollah'
     

@@ -8,12 +8,10 @@
         "python.defaultInterpreterPath": "/usr/local/bin/python",
         "python.linting.enabled": true,
         "python.linting.pylintEnabled": true,
-        "python.formatting.provider": "black",
-        "python.formatting.blackPath": "/usr/local/py-utils/bin/black",
         "python.linting.pylintPath": "/usr/local/py-utils/bin/pylint",
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
-          "source.organizeImports": true
+          "source.organizeImports": "explicit"
         },
         "files.autoSave": "afterDelay",
         "files.autoSaveDelay": 1000,
